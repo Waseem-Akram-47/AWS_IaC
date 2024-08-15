@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: ns
+data:
+  config.json: |
+    {
+      "key": "value"
+    }
