@@ -7,7 +7,17 @@ This project demonstrates how to use Infrastructure as Code (IaC) with Terraform
 
 ## Project Structure
 
-. ├── terraform │ ├── main.tf │ ├── variables.tf │ ├── outputs.tf │ └── provider.tf └── k8s ├── deployment.yaml ├── service.yaml ├── configmap.yaml ├── secret.yaml └── pvc.yaml
+├── terraform
+│ ├── main.tf
+│ ├── variables.tf
+│ ├── outputs.tf
+│ └── provider.tf
+└── k8s
+├── deployment.yaml
+├── service.yaml
+├── configmap.yaml
+├── secret.yaml
+└── pvc.yaml
 
 ## Terraform Configuration
 
